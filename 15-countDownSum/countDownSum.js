@@ -1,6 +1,8 @@
 class MySolution {
   countDownSum(num) {
     // Insert code here;
+
+    // base case to end the recursion
     if (num <= 1) {
       return num;
     } else {

@@ -1,5 +1,6 @@
 function frequencyCounter(word) {
   // Insert code here;
+  // initilaizes a new object
   let freq = {};
   for (let i = 0; i < word.length; i++) {
     let letter = word.charAt(i);

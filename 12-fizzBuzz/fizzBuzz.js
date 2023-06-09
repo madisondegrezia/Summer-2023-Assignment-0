@@ -12,6 +12,7 @@ function fizzBuzz(start, end) {
     } else if (i % 5 == 0) {
       newArr[count] = "Buzz";
     } else {
+      // if not a multiple of 3 or 5, the value is printed out
       newArr[count] = i;
     }
     count++;

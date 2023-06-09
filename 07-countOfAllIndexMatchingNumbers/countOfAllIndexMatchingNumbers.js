@@ -2,6 +2,7 @@ function countOfAllIndexMatchingNumbers(nums) {
   // Insert code here;
   let count = 0;
   for (let i = 0; i < nums.length; i++) {
+    // checks if the element's value is equal to the index
     if (nums[i] == i) {
       count++;
     }

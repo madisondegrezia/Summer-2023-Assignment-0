@@ -1,5 +1,6 @@
 function titleCaseEdit(title) {
   // Insert code here;
+
   //splits the title by spaces
   const arr = title.split(" ");
 
@@ -8,7 +9,7 @@ function titleCaseEdit(title) {
     arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
   }
 
-  //separatess the new titles by spaces
+  //separates the new titles by spaces
   const newTitle = arr.join(" ");
   return newTitle;
 }

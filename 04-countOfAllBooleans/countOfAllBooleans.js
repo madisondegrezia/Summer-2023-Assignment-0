@@ -3,6 +3,7 @@ function countOfAllBooleans(arr) {
   // initializes count variable
   let count = 0;
   for (let i = 0; i < arr.length; i++) {
+    // checks if the variable type is boolean
     if (typeof arr[i] == "boolean") {
       count++;
     }

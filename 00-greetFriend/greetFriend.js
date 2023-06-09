@@ -1,6 +1,7 @@
 function greetFriend(name) {
   // Insert code here;
   let pname = "Hello, " + name + "!";
+  // returns the greet friend message
   return pname;
 }
 

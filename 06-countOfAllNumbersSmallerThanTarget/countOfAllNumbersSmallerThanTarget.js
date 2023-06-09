@@ -3,6 +3,7 @@ function countOfAllNumbersSmallerThanTarget(nums, target) {
   let count = 0;
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] < target) {
+      // increments count value if it is less than the target
       count++;
     }
   }

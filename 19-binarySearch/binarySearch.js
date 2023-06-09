@@ -5,6 +5,8 @@ class MySolution {
 
   binarySearch(nums, target) {
     // Insert code here;
+
+    // sets the middle
     let middle = Math.floor(nums.length / 2);
     let newArray = nums.slice(0);
     if (newArray[middle] == target) {

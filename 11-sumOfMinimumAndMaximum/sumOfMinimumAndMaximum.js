@@ -1,6 +1,9 @@
 function sumOfMinimumAndMaximum(nums) {
   // Insert code here;
+
+  // initialized to the first element in the array
   let min = nums[0];
+  // initialized to the first element in the array
   let max = nums[0];
   let sum = 0;
 
